@@ -1,0 +1,110 @@
+.menu {
+  width: 100%;
+  height: 70px;
+  box-shadow: 2px 2px 1px 1px black;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.menu > .list {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu > .imgPart {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.menu > .imgPart > .imga {
+  height: 70%;
+  width: 30%;
+}
+
+.menu > .list > .sign {
+  background-color: gray;
+  padding: 5px;
+}
+
+.profile {
+  width: 80%;
+  margin: auto;
+  margin-top: 140px;
+}
+
+.profile > .sudo {
+  background-color: white;
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+
+.profile > .sudo > .src {
+  height: 50%;
+  width: 20%;
+  margin: auto;
+}
+
+.profile > .sudo > .cont {
+  text-align: center;
+}
+
+.profile > .sudo > .src > img {
+  border-radius: 50%;
+  border: 2px solid;
+  margin-top: -50px;
+  background-color: white;
+}
+
+#change {
+  color: gray;
+}
+
+.profile > .currency {
+  background-color: white;
+  min-height: 200px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+
+.currency > .cc {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.currency > .cc > div {
+  margin: 5%;
+}
+
+.currency > .cc > .first {
+  display: flex;
+  height: 100%;
+  column-gap: 10px;
+}
+
+.currency > .cc > .first > div {
+  width: 20%;
+}
+
+.currency > .cc > .second {
+  display: flex;
+  column-gap: 10px;
+}
+
+.currency > .cc > .second > span {
+  background-color: gray;
+  padding: 4px;
+  color: white;
+  width: 130px;
+  box-sizing: border-box;
+  text-align: center;
+}
